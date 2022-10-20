@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+ThinkGlobalSofia/ThinkGlobalSofia.Android/obj/
+ThinkGlobalSofia/ThinkGlobalSofia.Android/bin/
+*.user
+ThinkGlobalSofia/ThinkGlobalSofia.iOS/obj/
+ThinkGlobalSofia/ThinkGlobalSofia.iOS/bin/
+ThinkGlobalSofia/ThinkGlobalSofia/obj/
+ThinkGlobalSofia/ThinkGlobalSofia/bin/

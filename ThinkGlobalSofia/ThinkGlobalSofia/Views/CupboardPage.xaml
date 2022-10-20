@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ThinkGlobalSofia.Views.CupboardPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:ThinkGlobalSofia.ViewModels"
+    Title="{Binding Title}">
+    <ContentPage.BindingContext>
+        <vm:CupboarViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Image />
+            <Label
+                Margin="30"
+                FontSize="Medium"
+                HorizontalOptions="CenterAndExpand"
+                Text="{Binding Description}"
+                TextType="Text" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
