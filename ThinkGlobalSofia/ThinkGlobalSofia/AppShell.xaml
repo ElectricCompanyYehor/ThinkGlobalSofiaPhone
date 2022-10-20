@@ -89,7 +89,7 @@
         <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" Route="AboutPage" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Four Grade" Icon="icon_feed.png">
+    <FlyoutItem Title="4 Grade" Icon="icon_feed.png">
         <ShellContent ContentTemplate="{DataTemplate local:FourGradePage}" Route="FourGradePage" />
     </FlyoutItem>
 
