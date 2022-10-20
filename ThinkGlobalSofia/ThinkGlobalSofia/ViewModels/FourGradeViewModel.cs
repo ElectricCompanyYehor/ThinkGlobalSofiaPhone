@@ -8,4 +8,12 @@
             Title = "4 Grade";
         }
     }
+    public class SpiderWebViewModel : BaseViewModel
+    {
+        public string Description => "Це павутиння суперклейке! У тебе не вийде з ним пообніматися🙁, але поклеїтися вийде.😈";
+        public SpiderWebViewModel()
+        {
+            Title = "Павутиння";
+        }
+    }
 }
