@@ -10,10 +10,10 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Image />
+            <Image Source="Wardrobe.jpg" />
+            <Label FontSize="Title" Text="Шафки" />
             <Label
                 Margin="30"
-                FontSize="Medium"
                 HorizontalOptions="CenterAndExpand"
                 Text="{Binding Description}"
                 TextType="Text" />

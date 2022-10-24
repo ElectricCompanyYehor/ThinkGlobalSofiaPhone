@@ -10,10 +10,10 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Image />
+            <Image Source="Fireplace.jpg" />
+            <Label FontSize="Title" Text="Камін" />
             <Label
                 Margin="30"
-                FontSize="Medium"
                 HorizontalOptions="CenterAndExpand"
                 Text="{Binding Description}"
                 TextType="Text" />

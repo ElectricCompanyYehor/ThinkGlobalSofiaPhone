@@ -6,6 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Doors.mp4" />
+    <None Remove="Images\Fireplace.mp4" />
+    <None Remove="Images\Spiderweb.jpg" />
+    <None Remove="Images\Wardrobe.jpg" />
+    <None Remove="Images\WiteBoard.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Plugin.NFC" Version="0.1.26" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
@@ -30,5 +38,17 @@
     <EmbeddedResource Update="Views\WhiteBoardPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Doors.mp4" />
+    <EmbeddedResource Include="Images\Doors.mp4" />
+    <EmbeddedResource Include="Images\WiteBoard.jpg" />
+    <EmbeddedResource Include="Images\Fireplace.mp4" />
+    <EmbeddedResource Include="Images\Spiderweb.jpg" />
+    <EmbeddedResource Include="Images\Wardrobe.jpg" />
+    <Resource Include="Images\Fireplace.mp4" />
+    <Resource Include="Images\Spiderweb.jpg" />
+    <Resource Include="Images\Wardrobe.jpg" />
   </ItemGroup>
 </Project>

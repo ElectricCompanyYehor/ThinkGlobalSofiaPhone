@@ -26,6 +26,7 @@
                 Padding="30,24,30,24"
                 Orientation="Vertical"
                 Spacing="10">
+                <Image />
                 <Label FontSize="Title" Text="Halloween" />
                 <Label
                     Padding="0,0,0,0"
@@ -34,6 +35,7 @@
                 <Label
                     Padding="0,0,0,0"
                     FontSize="16"
+                    IsVisible="false"
                     Text="{Binding NFC.StateMessage, Mode=OneWay}" />
             </StackLayout>
         </ScrollView>

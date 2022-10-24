@@ -10,10 +10,10 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Image />
+            <Image Source="Doors.mp4" />
+            <Label FontSize="Title" Text="4 Grade" />
             <Label
                 Margin="30"
-                FontSize="Medium"
                 HorizontalOptions="CenterAndExpand"
                 Text="{Binding Description}"
                 TextType="Text" />

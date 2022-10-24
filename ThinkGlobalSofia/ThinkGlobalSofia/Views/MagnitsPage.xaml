@@ -10,10 +10,10 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Image />
+            <Image Source="Doors.jpg" />
+            <Label FontSize="Title" Text="Магніти" />
             <Label
                 Margin="30"
-                FontSize="Medium"
                 HorizontalOptions="CenterAndExpand"
                 Text="{Binding Description}"
                 TextType="Text" />
