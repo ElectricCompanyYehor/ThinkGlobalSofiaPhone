@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using ThinkGlobalSofia.Views;
 using Xamarin.Forms;
 
 namespace ThinkGlobalSofia.ViewModels
@@ -75,8 +76,32 @@ namespace ThinkGlobalSofia.ViewModels
             StateMessage = "OnMessagePublishe";
         }
 
-        private void Current_OnMessageReceived(ITagInfo tagInfo)
+        private async void Current_OnMessageReceived(ITagInfo tagInfo)
         {
+            switch (tagInfo.SerialNumber)
+            {
+                case "04226AEA836B80":
+                        Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new FourGradePage());
+                    break;
+                case "04A038EA836B80":
+                    Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new CupboardPage());
+                    break;
+                case "049547EA836B80":
+                    Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new MagnitsPage());
+                    break;
+                case "040142EA836B81":
+                    Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new FireplacePage());
+                    break;
+                case "045E4EEA836B80":
+                    Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new SpiderWebPage());
+                    break;
+                case "04874BEA836B80":
+                    Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new WhiteBoardPage());
+                    break;
+                default:
+                    break;
+            }
+            
             StateMessage = "OnMessageReceived";
         }
 
